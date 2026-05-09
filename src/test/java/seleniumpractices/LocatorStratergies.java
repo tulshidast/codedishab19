@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LocatorStratergies {
 
 	public static void main(String[] args) {
-		
+
 		// initialize the driver
 
 		WebDriver driver = new ChromeDriver();
@@ -23,7 +23,7 @@ public class LocatorStratergies {
 
 		WebElement headerOfPage = driver.findElement(By.className("title"));
 
-		System.out.println(headerOfPage.getText());
+		System.out.println("Header of the page " + headerOfPage.getText());
 
 		WebElement textAreaField = driver.findElement(By.id("ta1"));
 
