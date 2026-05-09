@@ -63,7 +63,7 @@ public class ScrollingInSelenium {
 
 		// driver.findElement(By.xpath("//a[text()='Flipkart']")).click();
 		
-		driver.close();
+		driver.quit();
 
 	}
 
